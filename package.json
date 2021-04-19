@@ -1,0 +1,14 @@
+{
+  "name": "babletest",
+  "version": "1.0.0",
+  "description": "how to made babel config",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/index.js -o public/script/bundle.js --presets env --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
